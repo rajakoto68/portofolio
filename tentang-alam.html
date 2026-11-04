@@ -1,0 +1,1928 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="theme-color"
+        content="#050505"
+    >
+
+    <title>Tentang Alam — Perjalanan</title>
+
+
+    <!-- =====================================================
+         GOOGLE FONTS
+    ====================================================== -->
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <!-- =====================================================
+         CSS
+    ====================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="tentang-alam.css"
+    >
+
+</head>
+
+
+<body class="locked">
+
+
+<!-- =========================================================
+     NAVBAR
+========================================================= -->
+
+<nav
+    class="nav"
+    id="nav"
+>
+
+    <a
+        href="#intro"
+        class="brand"
+        data-home
+    >
+        Tentang <em>Alam</em>
+    </a>
+
+
+    <div class="nav-links">
+
+        <a
+            href="#tentang"
+            data-nav
+        >
+            Tentang
+        </a>
+
+        <a
+            href="#dua-warna"
+            data-nav
+        >
+            Dua Warna
+        </a>
+
+        <a
+            href="#sibayak"
+            data-nav
+        >
+            Sibayak
+        </a>
+
+        <a
+            href="#sibuatan"
+            data-nav
+        >
+            Sibuatan
+        </a>
+
+        <a
+            href="#wishlist"
+            data-nav
+        >
+            Wishlist
+        </a>
+
+        <a
+            href="#musik"
+            data-nav
+        >
+            Musik
+        </a>
+
+        <a
+            href="index.html"
+            class="back-home"
+        >
+            Kembali
+        </a>
+
+    </div>
+
+
+    <div class="nav-right">
+
+        <div class="scene-progress">
+
+            <span id="sceneCount">
+                01
+            </span>
+
+            <div class="progress-track">
+
+                <i id="progressBar"></i>
+
+            </div>
+
+            <span>
+                06
+            </span>
+
+        </div>
+
+
+        <button
+            class="burger"
+            id="burger"
+            aria-label="Buka menu"
+        >
+
+            <i></i>
+            <i></i>
+
+        </button>
+
+    </div>
+
+</nav>
+
+
+
+<!-- =========================================================
+     HERO / 3D SCENE
+========================================================= -->
+
+<section
+    class="intro"
+    id="intro"
+>
+
+    <div
+        class="scene"
+        id="scene"
+    >
+
+        <canvas id="cv"></canvas>
+
+        <div class="water-overlay"></div>
+
+        <div class="mist-layer"></div>
+
+        <div class="grain"></div>
+
+        <div class="vignette"></div>
+
+    </div>
+
+
+    <!-- =====================================================
+         HERO TEXT
+    ====================================================== -->
+
+    <div class="hero-copy">
+
+        <div
+            class="eyebrow"
+            id="eyebrow"
+        >
+            01 · Permulaan
+        </div>
+
+
+        <h1 id="heroTitle">
+
+            Pertama kali aku
+            <br>
+
+            <em>
+                mengenal alam.
+            </em>
+
+        </h1>
+
+
+        <p id="heroDesc">
+
+            Semua bermula dari rasa penasaran.
+            Dari satu perjalanan, aku mulai menikmati
+            jalur, udara dingin, suara air,
+            dan suasana yang jauh dari ramai.
+
+        </p>
+
+    </div>
+
+
+
+    <div
+        class="scene-caption"
+        id="sceneCaption"
+    >
+        Awal cerita · Rasa penasaran
+    </div>
+
+
+
+    <div
+        class="scroll-stage"
+        id="scrollStage"
+    >
+        01 / 06
+    </div>
+
+
+
+    <div
+        class="continue-note"
+        id="continueNote"
+    >
+
+        Scroll 6 kali untuk menyusuri perjalanan
+
+        <span>
+            ↓
+        </span>
+
+    </div>
+
+
+
+    <!-- =================================================
+         GELOMBANG HERO
+    ================================================= -->
+
+    <div class="hero-wave">
+
+        <svg
+            viewBox="0 0 1440 180"
+            preserveAspectRatio="none"
+        >
+
+            <path
+                class="wave-back"
+                d="
+                    M0,85
+                    C180,145 310,25 520,80
+                    C720,135 850,165 1040,80
+                    C1190,15 1300,65 1440,110
+                    L1440,180
+                    L0,180
+                    Z
+                "
+            ></path>
+
+
+            <path
+                class="wave-mid"
+                d="
+                    M0,110
+                    C200,160 340,65 530,105
+                    C730,150 860,175 1040,105
+                    C1200,50 1320,90 1440,130
+                    L1440,180
+                    L0,180
+                    Z
+                "
+            ></path>
+
+
+            <path
+                class="wave-front"
+                d="
+                    M0,135
+                    C170,180 350,95 550,135
+                    C760,180 900,180 1080,130
+                    C1240,90 1330,115 1440,145
+                    L1440,180
+                    L0,180
+                    Z
+                "
+            ></path>
+
+        </svg>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     CONTENT
+========================================================= -->
+
+<main class="content">
+
+
+
+<!-- =========================================================
+     TENTANG DIRI
+========================================================= -->
+
+<section
+    class="story about"
+    id="tentang"
+>
+
+
+    <div class="wave-top">
+
+        <svg
+            viewBox="0 0 1440 130"
+            preserveAspectRatio="none"
+        >
+
+            <path
+                d="
+                    M0,70
+                    C180,125 320,20 520,65
+                    C710,110 860,135 1040,65
+                    C1210,5 1310,45 1440,80
+                    L1440,0
+                    L0,0
+                    Z
+                "
+            ></path>
+
+        </svg>
+
+    </div>
+
+
+
+    <div class="about-inner">
+
+
+        <!-- LEFT -->
+
+        <div class="about-left">
+
+            <span class="about-label">
+                TENTANG AKU
+            </span>
+
+
+            <h2 class="about-title">
+
+                Perjalanan yang
+
+                <br>
+
+                <em>
+                    membentuk aku.
+                </em>
+
+            </h2>
+
+
+            <p class="about-small">
+
+                Setiap tempat meninggalkan cerita.
+                Setiap perjalanan membawa sesuatu
+                yang berbeda ketika aku pulang.
+
+            </p>
+
+        </div>
+
+
+
+        <!-- COLLAGE -->
+
+        <div class="about-gallery">
+
+
+            <div class="gallery-photo photo-a">
+
+                <img
+                    src="assets/foto-1.jpg"
+                    alt="Perjalanan alam"
+                >
+
+            </div>
+
+
+            <div class="gallery-photo photo-b">
+
+                <img
+                    src="assets/foto-2.jpg"
+                    alt="Pemandangan alam"
+                >
+
+            </div>
+
+
+            <div class="gallery-photo photo-c">
+
+                <img
+                    src="assets/foto-3.jpg"
+                    alt="Perjalanan gunung"
+                >
+
+            </div>
+
+
+            <div class="gallery-photo photo-d">
+
+                <img
+                    src="assets/foto-4.jpg"
+                    alt="Perjalanan bersama"
+                >
+
+            </div>
+
+
+            <div class="gallery-photo photo-e">
+
+                <img
+                    src="assets/foto-5.jpg"
+                    alt="Air terjun"
+                >
+
+            </div>
+
+        </div>
+
+
+
+        <!-- RIGHT TEXT -->
+
+        <div class="about-right">
+
+            <p>
+
+                Awalnya aku cuma penasaran seperti apa
+                rasanya pergi ke tempat yang jauh dari
+                suasana kota.
+
+            </p>
+
+
+            <p>
+
+                Dari satu perjalanan, aku mulai suka
+                jalur pendakian, suara air, udara dingin,
+                pepohonan, dan momen ketika semuanya
+                terasa lebih tenang.
+
+            </p>
+
+
+            <p>
+
+                Website ini menjadi tempat untuk menyimpan
+                cerita itu: tempat yang pernah aku datangi,
+                orang-orang yang ikut dalam perjalanan,
+                foto, video, dan tempat yang masih ingin
+                aku kunjungi.
+
+            </p>
+
+
+            <a
+                href="#dua-warna"
+                class="about-link"
+            >
+                Mulai dari Air Terjun Dua Warna ↗
+            </a>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         STORY LINE
+    ====================================================== -->
+
+    <div class="about-storyline">
+
+        <div>
+
+            <span>
+                01
+            </span>
+
+            Awal aku mengenal alam
+
+        </div>
+
+
+        <div>
+
+            <span>
+                02
+            </span>
+
+            Perjalanan yang pernah dilakukan
+
+        </div>
+
+
+        <div>
+
+            <span>
+                03
+            </span>
+
+            Cerita yang masih ingin dilanjutkan
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =====================================================
+         SATU-SATUNYA WAVE TRANSISI SETELAH ABOUT
+    ====================================================== -->
+
+    <div
+        class="about-wave-bottom"
+        aria-hidden="true"
+    >
+
+        <svg
+            viewBox="0 0 1440 180"
+            preserveAspectRatio="none"
+        >
+
+            <path
+                class="about-wave-back"
+                d="
+                    M0,105
+                    C150,35 300,145 500,90
+                    C700,35 850,150 1040,82
+                    C1200,25 1320,105 1440,65
+                    L1440,180
+                    L0,180
+                    Z
+                "
+            ></path>
+
+
+            <path
+                class="about-wave-mid"
+                d="
+                    M0,125
+                    C180,65 310,165 520,112
+                    C710,62 850,165 1040,105
+                    C1200,55 1320,130 1440,90
+                    L1440,180
+                    L0,180
+                    Z
+                "
+            ></path>
+
+
+            <path
+                class="about-wave-front"
+                d="
+                    M0,145
+                    C170,95 350,180 550,130
+                    C760,82 900,180 1080,125
+                    C1240,80 1330,145 1440,115
+                    L1440,180
+                    L0,180
+                    Z
+                "
+            ></path>
+
+        </svg>
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =========================================================
+     DUA WARNA
+========================================================= -->
+
+<!-- =========================================================
+     DUA WARNA — SCRAPBOOK
+========================================================= -->
+
+<section
+    class="story feature-section scrapbook-section"
+    id="dua-warna"
+>
+
+    <div class="scrapbook-bg">
+
+        <!-- cahaya -->
+        <div class="light-orb orb-1"></div>
+        <div class="light-orb orb-2"></div>
+        <div class="light-orb orb-3"></div>
+
+        <!-- meja / kertas dekorasi -->
+        <div class="desk-shadow"></div>
+
+        <!-- paper clip -->
+        <div class="paper-clip clip-top"></div>
+        <div class="paper-clip clip-right"></div>
+
+
+        <!-- =================================================
+             KERTAS UTAMA
+        ================================================== -->
+
+        <div class="scrap-paper">
+
+            <div class="paper-hole hole-1"></div>
+            <div class="paper-hole hole-2"></div>
+            <div class="paper-hole hole-3"></div>
+            <div class="paper-hole hole-4"></div>
+            <div class="paper-hole hole-5"></div>
+
+
+            <div class="scrap-content">
+
+                <div class="scrap-kicker">
+                    02 · AIR TERJUN DUA WARNA
+                </div>
+
+
+                <h2 class="scrap-title">
+                    Air Terjun
+                    <span>Dua Warna</span>
+                </h2>
+
+
+                <div class="scrap-location">
+
+                    <div class="location-pin">
+                        <span>●</span>
+                    </div>
+
+                    <div>
+                        <strong>
+                            Desa Durin Sirugun · Sibolangit
+                        </strong>
+
+                        <small>
+                            Deli Serdang · Sumatera Utara
+                        </small>
+                    </div>
+
+                </div>
+
+
+                <div class="scrap-story">
+
+                    <div class="story-heading">
+                        <span class="star">★</span>
+
+                        <h3>
+                            Cerita Perjalanan
+                        </h3>
+                    </div>
+
+
+                    <div class="check-list">
+
+                        <div class="check-item">
+                            <div class="check-box">✓</div>
+
+                            <p>
+                                Air Terjun Dua Warna menjadi salah
+                                satu bagian penting dari ceritaku
+                                mengenal alam.
+                            </p>
+                        </div>
+
+
+                        <div class="check-item">
+                            <div class="check-box">✓</div>
+
+                            <p>
+                                Perjalanan ke sini mengajarkan arti
+                                kesabaran, kebersamaan, dan menikmati
+                                setiap proses.
+                            </p>
+                        </div>
+
+
+                        <div class="check-item">
+                            <div class="check-box">✓</div>
+
+                            <p>
+                                Keindahan alamnya membuat setiap
+                                langkah terasa berarti.
+                            </p>
+                        </div>
+
+
+                        <div class="check-item">
+                            <div class="check-box">✓</div>
+
+                            <p>
+                                Tempat ini akan selalu menjadi salah
+                                satu cerita favorit dalam perjalanan.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="scrap-quote">
+                    “Alam selalu punya cara<br>
+                    untuk membuat kita kembali.”
+                </div>
+
+
+                <div class="quote-line"></div>
+
+
+                <div class="location-note">
+
+                    <span>LOKASI</span>
+
+                    <strong>
+                        Desa Durin Sirugun · Sibolangit
+                    </strong>
+
+                    <small>
+                        Deli Serdang · Sumatera Utara
+                    </small>
+
+                    <a
+                        href="https://www.google.com/maps/search/?api=1&query=Air+Terjun+Dua+Warna+Sibolangit"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        Buka lokasi di Maps ↗
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             FOTO 1
+        ================================================== -->
+
+        <figure class="polaroid photo-dua-1">
+
+            <div class="photo-tape"></div>
+
+            <img
+                src="assets/foto-1.jpg"
+                alt="Air Terjun Dua Warna"
+            >
+
+            <figcaption>
+                Airnya benar-benar dua warna!
+            </figcaption>
+
+        </figure>
+
+
+        <!-- =================================================
+             FOTO 2
+        ================================================== -->
+
+        <figure class="polaroid photo-dua-2">
+
+            <div class="photo-tape"></div>
+
+            <img
+                src="assets/foto-2.jpg"
+                alt="Air Terjun Dua Warna"
+            >
+
+            <figcaption>
+                Dua warna, satu pengalaman.
+            </figcaption>
+
+        </figure>
+
+
+        <!-- =================================================
+             FOTO 3
+        ================================================== -->
+
+        <figure class="polaroid photo-dua-3">
+
+            <div class="push-pin"></div>
+
+            <img
+                src="assets/foto-3.jpg"
+                alt="Perjalanan Air Terjun Dua Warna"
+            >
+
+            <figcaption>
+                Menikmati setiap prosesnya.
+            </figcaption>
+
+        </figure>
+
+
+        <!-- =================================================
+             FOTO 4
+        ================================================== -->
+
+        <figure class="polaroid photo-dua-4">
+
+            <div class="push-pin red"></div>
+
+            <img
+                src="assets/foto-4.jpg"
+                alt="Perjalanan bersama"
+            >
+
+            <figcaption>
+                Bersama orang-orang baik.
+            </figcaption>
+
+        </figure>
+
+
+        <!-- =================================================
+             FOTO 5
+        ================================================== -->
+
+        <figure class="polaroid photo-dua-5">
+
+            <img
+                src="assets/foto-5.jpg"
+                alt="Air Terjun Dua Warna"
+            >
+
+            <figcaption>
+                Tempat yang selalu dirindu.
+            </figcaption>
+
+        </figure>
+
+
+        <!-- =================================================
+             STICKY NOTE
+        ================================================== -->
+
+        <div class="sticky-note note-top">
+
+            <span>
+                Perjalanan
+                <br>
+                selalu punya
+                <br>
+                cerita baru
+            </span>
+
+            <b>⌣</b>
+
+        </div>
+
+
+        <!-- =================================================
+             STICKY NOTE BAWAH
+        ================================================== -->
+
+        <div class="sticky-note note-bottom">
+
+            <span>
+                Lebih Jauh
+                <br>
+                Lebih Hidup
+            </span>
+
+        </div>
+
+
+        <!-- =================================================
+             SMALL STICKER
+        ================================================== -->
+
+        <div class="mountain-sticker">
+
+            <span>△</span>
+
+            <small>
+                Jelajah
+                <br>
+                Alam
+            </small>
+
+        </div>
+
+
+        <!-- =================================================
+             VIDEO
+        ================================================== -->
+
+        <div class="scrap-video-card">
+
+            <div class="video-label">
+                VIDEO 01
+            </div>
+
+            <h3>
+                Rekaman perjalanan
+            </h3>
+
+            <video
+                class="travel-video"
+                controls
+                preload="metadata"
+                poster="assets/foto-1.jpg"
+            >
+                <source
+                    src="assets/video-dua-warna.mp4"
+                    type="video/mp4"
+                >
+            </video>
+
+        </div>
+
+
+        <div class="scrap-number">
+            02
+        </div>
+
+
+        <div class="scrap-total">
+            / 06
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     SIBAYAK
+========================================================= -->
+
+<!-- =========================================================
+     SIBAYAK — SCRAPBOOK REDESIGN
+========================================================= -->
+
+<section
+    class="story sibayak-redesign"
+    id="sibayak"
+>
+
+    <!-- BACKGROUND DECORATION -->
+    <div class="sibayak-bg-glow"></div>
+    <div class="sibayak-noise"></div>
+
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
+
+    <div class="sibayak-intro">
+
+        <div class="sibayak-intro-text">
+
+            <p class="sibayak-kicker">
+                03 · GUNUNG SIBAYAK
+            </p>
+
+            <h2>
+                Sibayak,
+                <br>
+                <em>lebih dari sekadar puncak.</em>
+            </h2>
+
+            <p class="sibayak-description">
+                Perjalanan ini bukan hanya tentang mendaki,
+                tapi juga tentang melihat, merasakan,
+                dan mengingat setiap momen yang ada
+                di sepanjang jalur.
+            </p>
+
+
+            <!-- INFO -->
+
+            <div class="sibayak-info">
+
+                <div class="sibayak-info-item">
+
+                    <span class="info-icon">
+                        △
+                    </span>
+
+                    <div>
+                        <strong>2.121 mdpl</strong>
+                        <small>Ketinggian</small>
+                    </div>
+
+                </div>
+
+
+                <div class="sibayak-info-item">
+
+                    <span class="info-icon">
+                        ●
+                    </span>
+
+                    <div>
+                        <strong>Berastagi</strong>
+                        <small>Sumatera Utara</small>
+                    </div>
+
+                </div>
+
+
+                <div class="sibayak-info-item">
+
+                    <span class="info-icon">
+                        ♟
+                    </span>
+
+                    <div>
+                        <strong>± 3–4 jam</strong>
+                        <small>Estimasi pendakian</small>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             FOTO UTAMA + POLAROID
+        ================================================== -->
+
+        <div class="sibayak-collage">
+
+            <!-- FOTO BESAR -->
+
+            <figure class="sibayak-main-photo">
+
+                <div class="sibayak-tape tape-main"></div>
+
+                <img
+                    src="assets/sibayak.svg"
+                    alt="Gunung Sibayak"
+                >
+
+                <figcaption>
+
+                    <strong>
+                        Gunung Sibayak
+                    </strong>
+
+                    <span>
+                        Berastagi, Sumatera Utara
+                    </span>
+
+                </figcaption>
+
+            </figure>
+
+
+            <!-- FOTO POLAROID KANAN -->
+
+            <figure class="sibayak-polaroid polaroid-one">
+
+                <div class="sibayak-tape"></div>
+
+                <img
+                    src="assets/sibayak-foto-1.jpg"
+                    alt="Perjalanan Gunung Sibayak"
+                >
+
+                <figcaption>
+                    Perjalanan penuh cerita
+                </figcaption>
+
+            </figure>
+
+
+            <!-- STICKY NOTE -->
+
+            <div class="sibayak-note">
+
+                <p>
+                    Setiap
+                    <br>
+                    langkahnya
+                    <br>
+                    selalu punya
+                    <br>
+                    cerita.
+                </p>
+
+                <span>☺</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         VIDEO PERJALANAN
+    ====================================================== -->
+
+    <div class="sibayak-video-section">
+
+        <div class="sibayak-section-heading">
+
+            <div>
+
+                <span>
+                    DOKUMENTASI
+                </span>
+
+                <h3>
+                    Video <em>Perjalanan</em>
+                </h3>
+
+            </div>
+
+            <p>
+                Serpihan perjalanan dalam bentuk gambar bergerak,
+                lebih dari sekadar foto, ini adalah cerita yang hidup.
+            </p>
+
+        </div>
+
+
+      <div class="sibayak-video-grid">
+
+    <!-- VIDEO 16 : 9 -->
+    <article class="sibayak-video-card video-landscape">
+
+        <div class="video-ratio-label">
+            16 : 9
+        </div>
+
+        <div class="video-frame">
+
+            <video
+                controls
+                preload="metadata"
+                poster="assets/sibayak-foto-1.jpg"
+            >
+                <source
+                    src="assets/video-sibayak-1.mp4"
+                    type="video/mp4"
+                >
+
+                Browser kamu belum mendukung video.
+            </video>
+
+        </div>
+
+        <div class="sibayak-video-caption">
+            <strong>
+                Video Perjalanan Pendakian Gunung Sibayak
+            </strong>
+
+            <span>
+                01 · Perjalanan
+            </span>
+        </div>
+
+    </article>
+
+
+    <!-- VIDEO 9 : 16 -->
+    <article class="sibayak-video-card video-portrait">
+
+        <div class="video-ratio-label">
+            9 : 16
+        </div>
+
+        <div class="video-frame">
+
+            <video
+                controls
+                preload="metadata"
+                poster="assets/sibayak-foto-2.jpg"
+            >
+                <source
+                    src="assets/video-sibayak-2.mp4"
+                    type="video/mp4"
+                >
+
+                Browser kamu belum mendukung video.
+            </video>
+
+        </div>
+
+        <div class="sibayak-video-caption">
+            <strong>
+                Video Sibayak Vertikal
+            </strong>
+
+            <span>
+                02 · Perjalanan
+            </span>
+        </div>
+
+    </article>
+
+</div>
+<!-- =====================================================
+     SIBAYAK MUSIC PLAYER
+===================================================== -->
+
+<div class="sibayak-music">
+
+    <div class="sibayak-music-player">
+
+        <!-- COVER -->
+        <div class="sibayak-music-cover">
+
+            <img
+                src="assets/sibayak-foto-1.jpg"
+                alt="Shape of My Heart"
+            >
+
+        </div>
+
+
+        <!-- SONG INFO -->
+
+        <div class="sibayak-song-info">
+
+            <h3>
+                Shape of My Heart
+            </h3>
+
+            <p>
+                ♪ Music · Journey
+            </p>
+
+        </div>
+
+
+        <!-- PROGRESS -->
+
+        <div class="sibayak-song-progress">
+
+            <div class="sibayak-time">
+
+                <span id="sibayakCurrent">
+                    0:00
+                </span>
+
+                <span id="sibayakDuration">
+                    -0:00
+                </span>
+
+            </div>
+
+
+            <div
+                class="sibayak-progress-bar"
+                id="sibayakProgress"
+            >
+
+                <div
+                    class="sibayak-progress-fill"
+                    id="sibayakProgressFill"
+                ></div>
+
+                <div
+                    class="sibayak-progress-dot"
+                    id="sibayakProgressDot"
+                ></div>
+
+            </div>
+
+        </div>
+
+
+        <!-- CONTROLS -->
+
+        <div class="sibayak-music-controls">
+
+            <button
+                type="button"
+                id="sibayakPrev"
+                aria-label="Previous"
+            >
+                ◀◀
+            </button>
+
+
+            <button
+                type="button"
+                class="sibayak-main-play"
+                id="sibayakPlay"
+                aria-label="Play"
+            >
+                <span>▶</span>
+            </button>
+
+
+            <button
+                type="button"
+                id="sibayakNext"
+                aria-label="Next"
+            >
+                ▶▶
+            </button>
+
+        </div>
+
+
+        <!-- VOLUME -->
+
+        <div class="sibayak-volume">
+
+            <span>◀</span>
+
+            <div
+                class="sibayak-volume-bar"
+                id="sibayakVolumeBar"
+            >
+
+                <div
+                    class="sibayak-volume-fill"
+                    id="sibayakVolumeFill"
+                ></div>
+
+            </div>
+
+            <span>🔊</span>
+
+        </div>
+
+
+        <!-- AUDIO -->
+
+        <audio
+            id="sibayakAudio"
+            preload="metadata"
+        >
+
+            <source
+                src="assets/shape-of-my-heart.mp3"
+                type="audio/mpeg"
+            >
+
+        </audio>
+
+    </div>
+
+</div>
+
+
+    <!-- =====================================================
+         GALERI
+    ====================================================== -->
+
+    <div class="sibayak-gallery-section">
+
+        <div class="sibayak-gallery-heading">
+
+            <div>
+
+                <span>
+                    MOMEN PILIHAN
+                </span>
+
+                <h3>
+                    Galeri <em>Foto</em>
+                </h3>
+
+            </div>
+
+            <p>
+                Beberapa momen yang berhasil diabadikan
+                selama perjalanan ke Gunung Sibayak.
+            </p>
+
+        </div>
+
+
+        <div class="sibayak-gallery">
+
+
+            <!-- FOTO 1 -->
+
+            <figure class="sibayak-gallery-photo gallery-large">
+
+                <div class="sibayak-tape"></div>
+
+                <img
+                    src="assets/sibayak-foto-1.jpg"
+                    alt="Keindahan Gunung Sibayak"
+                >
+
+                <figcaption>
+                    Keindahan alam
+                    <br>
+                    yang luar biasa.
+                </figcaption>
+
+            </figure>
+
+
+            <!-- FOTO 2 -->
+
+            <figure class="sibayak-gallery-photo gallery-center">
+
+                <div class="sibayak-tape"></div>
+
+                <img
+                    src="assets/sibayak-foto-2.jpg"
+                    alt="Pemandangan Gunung Sibayak"
+                >
+
+                <figcaption>
+                    Menikmati perjalanan
+                    <br>
+                    dari ketinggian.
+                </figcaption>
+
+            </figure>
+
+
+            <!-- FOTO 3 -->
+
+            <figure class="sibayak-gallery-photo gallery-small">
+
+                <div class="sibayak-tape"></div>
+
+                <img
+                    src="assets/sibayak-foto-1.jpg"
+                    alt="Puncak Gunung Sibayak"
+                >
+
+                <figcaption>
+                    Momen di puncak
+                </figcaption>
+
+            </figure>
+
+
+            <!-- FOTO 4 -->
+
+            <figure class="sibayak-gallery-photo gallery-bottom">
+
+                <div class="sibayak-tape"></div>
+
+                <img
+                    src="assets/sibayak-foto-2.jpg"
+                    alt="Perjalanan Sibayak"
+                >
+
+                <figcaption>
+                    Setiap langkah
+                    <br>
+                    punya cerita.
+                </figcaption>
+
+            </figure>
+
+        </div>
+
+    </div>
+
+
+    <!-- NOMOR SECTION -->
+
+    <div class="sibayak-number">
+        03 <span>/ 06</span>
+    </div>
+
+</section>
+
+<!-- =========================================================
+     SIBUATAN
+========================================================= -->
+
+<section
+    class="story sibuatan-section"
+    id="sibuatan"
+>
+
+
+    <div class="section-head">
+
+        <p class="kicker">
+            04 · GUNUNG SIBUATAN
+        </p>
+
+
+        <h2>
+
+            Lebih jauh,
+
+            <br>
+
+            <em>
+                bersama kawan.
+            </em>
+
+        </h2>
+
+    </div>
+
+
+
+    <div class="sibuatan-hero">
+
+        <img
+            src="assets/sibuatan.svg"
+            alt="Gunung Sibuatan"
+        >
+
+
+        <div class="sibuatan-overlay">
+
+            <span>
+                SUMATERA UTARA
+            </span>
+
+
+            <strong>
+                Gunung Sibuatan
+            </strong>
+
+
+            <p>
+
+                Perjalanan, kebersamaan,
+                dan cerita yang dibawa pulang.
+
+            </p>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="sibuatan-grid">
+
+
+        <figure class="memory-card">
+
+            <img
+                src="assets/sibuatan-foto-1.jpg"
+                alt="Foto Sibuatan"
+            >
+
+
+            <figcaption>
+                Foto Sibuatan
+            </figcaption>
+
+        </figure>
+
+
+
+        <div class="sibuatan-copy">
+
+            <p class="lead">
+
+                Sibuatan bukan cuma tentang puncak.
+
+            </p>
+
+
+            <p>
+
+                Ada perjalanan bersama kawan,
+                saling menunggu, bercanda di jalur,
+                capek bareng, sampai akhirnya punya
+                satu cerita yang bisa diingat lagi
+                lewat foto dan video.
+
+            </p>
+
+        </div>
+
+
+
+        <div class="memory-video wide">
+
+            <video controls>
+
+                <source
+                    src="assets/video-sibuatan.mp4"
+                    type="video/mp4"
+                >
+
+            </video>
+
+
+            <span>
+                Video kebersamaan · Sibuatan
+            </span>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     WISHLIST
+========================================================= -->
+
+<section
+    class="story wishlist-section"
+    id="wishlist"
+>
+
+
+    <div class="section-head">
+
+        <p class="kicker">
+            05 · WISHLIST PERJALANAN
+        </p>
+
+
+        <h2>
+
+            Tempat yang
+
+            <br>
+
+            <em>
+                ingin kukunjungi.
+            </em>
+
+        </h2>
+
+    </div>
+
+
+
+    <div class="wishlist-grid">
+
+
+        <article class="wish-card">
+
+            <img
+                src="assets/kerinci.svg"
+                alt="Gunung Kerinci"
+            >
+
+
+            <div>
+
+                <span>
+                    WISHLIST 01
+                </span>
+
+
+                <h3>
+                    Gunung Kerinci
+                </h3>
+
+
+                <p>
+
+                    Salah satu tujuan yang ingin
+                    aku rasakan sendiri: jalurnya,
+                    suasana pegunungannya, dan
+                    pemandangan dari ketinggian.
+
+                </p>
+
+            </div>
+
+        </article>
+
+
+
+        <article class="wish-card">
+
+            <img
+                src="assets/merbabu.svg"
+                alt="Gunung Merbabu"
+            >
+
+
+            <div>
+
+                <span>
+                    WISHLIST 02
+                </span>
+
+
+                <h3>
+                    Gunung Merbabu
+                </h3>
+
+
+                <p>
+
+                    Masuk daftar perjalanan berikutnya.
+                    Ingin menikmati jalur terbuka,
+                    udara pagi, dan suasana menuju
+                    puncak.
+
+                </p>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     MUSIK
+========================================================= -->
+
+<section
+    class="story music-section"
+    id="musik"
+>
+
+
+    <div class="music-card">
+
+
+        <div class="vinyl">
+
+            <div class="vinyl-hole"></div>
+
+        </div>
+
+
+
+        <div class="music-info">
+
+            <span class="mini-label">
+                LAGU PERJALANAN
+            </span>
+
+
+            <h3>
+                Shape of My Heart
+            </h3>
+
+
+            <p>
+
+                Lagu yang menemani perjalanan
+                dan suasana ketika mengingat
+                kembali tempat-tempat yang pernah
+                dikunjungi.
+
+            </p>
+
+
+            <audio
+                controls
+                preload="metadata"
+            >
+
+                <source
+                    src="assets/shape-of-my-heart.mp3"
+                    type="audio/mpeg"
+                >
+
+            </audio>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     OPEN TRIP
+========================================================= -->
+
+<section
+    class="story trip-section"
+>
+
+
+    <div class="trip-card">
+
+
+        <div>
+
+            <p class="kicker">
+                INFO JALAN-JALAN
+            </p>
+
+
+            <h2>
+
+                Kalau ingin
+
+                <br>
+
+                <em>
+                    jalan bersama.
+                </em>
+
+            </h2>
+
+
+            <p>
+
+                Kalau membutuhkan open trip
+                untuk perjalanan berikutnya,
+                kamu bisa melihat informasi
+                perjalanan melalui Instagram
+                Mosttrip.
+
+            </p>
+
+        </div>
+
+
+
+        <a
+            class="trip-button"
+            href="https://www.instagram.com/mosttrip?stkn=aTF5dTJ6ZTdwNnBt"
+            target="_blank"
+            rel="noopener"
+        >
+            Lihat Mosttrip ↗
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+
+<footer class="footer">
+
+    <div>
+
+        <strong>
+            Tentang Alam.
+        </strong>
+
+
+        <span>
+
+            Catatan kecil tentang perjalanan,
+            gunung, air, dan orang-orang
+            yang ikut di dalamnya.
+
+        </span>
+
+    </div>
+
+
+    <a
+        href="#intro"
+        class="back-top"
+    >
+        KEMBALI KE AWAL ↑
+    </a>
+
+</footer>
+
+
+</main>
+
+
+
+<!-- =========================================================
+     JAVASCRIPT
+========================================================= -->
+
+<script src="tentang-alam.js"></script>
+
+
+</body>
+
+</html>

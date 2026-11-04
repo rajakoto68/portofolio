@@ -1,0 +1,3503 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+<title>M. Raja Siyo — Portofolio</title>
+
+<meta
+  name="description"
+  content="Portofolio M. Raja Siyo. Pelajar XII RPL 1, pencinta alam, dunia gym, dan web developer."
+>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link
+  href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Spline+Sans+Mono:wght@400;600&family=Spline+Sans:wght@400;500;600&display=swap"
+  rel="stylesheet"
+>
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+.journey-location-link {
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  width:fit-content;
+  max-width:100%;
+  color:inherit;
+  text-decoration:none;
+  line-height:1.6;
+  transition:
+    color .25s ease,
+    transform .25s ease,
+    opacity .25s ease;
+}
+
+.journey-location-link span {
+  color:var(--sulfur);
+  font-size:.9em;
+  transition:transform .25s ease;
+}
+
+.journey-location-link:hover {
+  color:var(--sulfur);
+  transform:translateX(3px);
+}
+
+.journey-location-link:hover span {
+  transform:translate(2px,-2px);
+}
+
+.journey-school-link {
+  transition:
+    color .25s ease,
+    border-color .25s ease,
+    transform .25s ease;
+}
+
+.journey-school-link:hover {
+  color:var(--sulfur);
+  border-color:var(--sulfur);
+  transform:translateX(3px);
+}
+
+@media (max-width:700px) {
+
+  .journey-location-link {
+    font-size:.92em;
+  }
+
+}
+
+</style>
+
+
+</head>
+
+
+<body data-mode="night">
+
+
+<a
+  class="skip"
+  href="#about"
+>
+  Lompat ke isi
+</a>
+
+
+<!-- =========================================================
+     LOADING SCREEN
+     ========================================================= -->
+
+<div
+  class="loading-screen"
+  id="loadingScreen"
+>
+
+  <div class="loading-content">
+
+    <div class="loading-text">
+      M.RAJA SIYO
+    </div>
+
+    <div class="loading-bar">
+
+      <div
+        class="loading-progress"
+        id="loadingProgress"
+      ></div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+<!-- =========================================================
+     NAVBAR
+     ========================================================= -->
+
+<header
+  class="nav"
+  id="nav"
+>
+
+  <nav
+    class="nav-links"
+    id="mobileNav"
+    aria-label="Navigasi utama"
+  >
+
+    <a
+      href="#home"
+      class="is-here"
+    >
+      Home
+    </a>
+
+    <a href="#about">
+      About me
+    </a>
+
+    <a href="#tentang">
+      Tentang
+    </a>
+
+    <a href="#journey">
+      My Journey
+    </a>
+
+    <!-- TAMBAHAN PRESTASI -->
+
+    <a href="#achievements">
+      Prestasi
+    </a>
+
+    <a href="#project">
+      Project
+    </a>
+
+    <a href="#contact">
+      Contact Me
+    </a>
+
+    <a href="#fav-song">
+      My Fav Song
+    </a>
+
+  </nav>
+
+
+  <button
+    class="nav-menu-btn"
+    id="navMenuBtn"
+    type="button"
+    aria-label="Buka menu navigasi"
+    aria-expanded="false"
+    aria-controls="mobileNav"
+  >
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+
+
+  <span
+    class="nav-split"
+    aria-hidden="true"
+  ></span>
+
+
+  <button
+    class="mode-btn"
+    id="modeBtn"
+    type="button"
+    aria-pressed="true"
+  >
+
+    <span
+      class="mode-ico"
+      aria-hidden="true"
+    ></span>
+
+    <span class="mode-label">
+      Malam
+    </span>
+
+  </button>
+
+</header>
+
+
+
+<main>
+
+
+<!-- =========================================================
+     INTRO
+     ========================================================= -->
+
+<section
+  class="intro"
+  id="home"
+>
+
+
+  <div
+    class="intro-marquee"
+    aria-hidden="true"
+  >
+
+    <div
+      class="track"
+      id="marqueeTrack"
+    >
+
+      <span class="group">
+
+        <b>M. RAJA SIYO</b>
+        <b>M. RAJA SIYO</b>
+        <b>M. RAJA SIYO</b>
+
+      </span>
+
+
+      <span class="group">
+
+        <b>M. RAJA SIYO</b>
+        <b>M. RAJA SIYO</b>
+        <b>M. RAJA SIYO</b>
+
+      </span>
+
+    </div>
+
+  </div>
+
+
+
+  <div
+    class="intro-photo-container"
+    id="introPhotoContainer"
+  >
+
+    <div
+      class="intro-photo"
+      id="introPhoto"
+    >
+
+      <span
+        class="intro-ground"
+        aria-hidden="true"
+      ></span>
+
+
+      <img
+        src="img/me-cutout.png"
+        alt="Foto M. Raja Siyo"
+        id="photoImg"
+      >
+
+    </div>
+
+  </div>
+
+
+
+  <p
+    class="intro-roles"
+    id="introRoles"
+  >
+
+    <span>
+      Pelajar XII RPL 1
+    </span>
+
+    <span>
+      Pencinta alam
+    </span>
+
+    <span>
+      Dunia gym
+    </span>
+
+    <span>
+      Web developer
+    </span>
+
+  </p>
+
+
+
+  <span class="intro-credit">
+    M. Raja Siyo &mdash; Portofolio
+  </span>
+
+
+
+  <div
+    class="intro-cue"
+    id="introCue"
+  >
+
+    <span>
+      Scroll
+    </span>
+
+    <i aria-hidden="true"></i>
+
+  </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     SCROLL SPACE
+     ========================================================= -->
+
+<div class="scroll-space">
+
+
+<section
+  class="stage"
+  aria-label="Adegan gunung meletus"
+>
+
+
+  <div
+    class="world"
+    id="world"
+  >
+
+
+    <div
+      class="layer sky"
+      data-depth="-1"
+    ></div>
+
+
+    <div
+      class="layer sun"
+      data-depth="-0.95"
+      aria-hidden="true"
+    ></div>
+
+
+    <img
+      src="img/stars.svg"
+      class="layer stars"
+      data-depth="-0.92"
+      alt=""
+      aria-hidden="true"
+    >
+
+
+    <img
+      src="img/ridge-far.svg"
+      class="layer far"
+      data-depth="-0.62"
+      alt=""
+      aria-hidden="true"
+    >
+
+
+    <img
+      src="img/ridge-mid.svg"
+      class="layer mid"
+      data-depth="-0.34"
+      alt=""
+      aria-hidden="true"
+    >
+
+
+    <img
+      src="img/smoke.svg"
+      class="layer smoke"
+      data-depth="-0.12"
+      alt=""
+      aria-hidden="true"
+    >
+
+
+    <img
+      src="img/volcano.svg"
+      class="layer cone"
+      data-depth="0"
+      alt="Gunung api dengan kawah menyala"
+      aria-hidden="true"
+    >
+
+
+    <img
+      src="img/lava.svg"
+      class="layer lava"
+      data-depth="0.08"
+      alt=""
+      aria-hidden="true"
+    >
+
+
+    <canvas
+      class="layer embers"
+      id="embers"
+      data-depth="0.2"
+      aria-hidden="true"
+    ></canvas>
+
+
+    <img
+      src="img/mist.svg"
+      class="layer mist"
+      data-depth="0.34"
+      alt=""
+      aria-hidden="true"
+    >
+
+
+    <img
+      src="img/birds.svg"
+      class="layer birds"
+      data-depth="0.44"
+      alt=""
+      aria-hidden="true"
+    >
+
+
+    <img
+      src="img/foreground.svg"
+      class="layer fore"
+      data-depth="0.72"
+      alt=""
+      aria-hidden="true"
+    >
+
+
+    <div
+      class="flash"
+      id="flash"
+      aria-hidden="true"
+    ></div>
+
+
+    <div
+      class="grain"
+      aria-hidden="true"
+    ></div>
+
+  </div>
+
+
+
+  <p
+    class="hero-meta"
+    id="heroCopy"
+  >
+
+    Sibayak 2.212 mdpl
+    &middot;
+    suhu kawah 90&deg;C
+
+  </p>
+
+
+
+  <!-- ================= BET NAMA ================= -->
+
+  <div
+    class="badge-wrap"
+    id="badge"
+  >
+
+
+    <svg
+      class="lanyard"
+      id="lanyard"
+      viewBox="0 0 240 480"
+      preserveAspectRatio="none"
+      aria-hidden="true"
+    >
+
+      <defs>
+
+        <linearGradient
+          id="strapA"
+          x1="0"
+          y1="0"
+          x2="1"
+          y2="0"
+        >
+
+          <stop
+            offset="0"
+            stop-color="#13301F"
+          >
+
+          <stop
+            offset=".18"
+            stop-color="#2E6B4F"
+          >
+
+          <stop
+            offset=".5"
+            stop-color="#3C8360"
+          >
+
+          <stop
+            offset=".82"
+            stop-color="#245240"
+          >
+
+          <stop
+            offset="1"
+            stop-color="#0F261B"
+          >
+
+        </linearGradient>
+
+      </defs>
+
+
+      <rect
+        x="104"
+        y="0"
+        width="32"
+        height="450"
+        fill="url(#strapA)"
+      ></rect>
+
+
+      <line
+        x1="108"
+        y1="0"
+        x2="108"
+        y2="450"
+        stroke="#8FE0B4"
+        stroke-width="1"
+        opacity=".28"
+        stroke-dasharray="7 8"
+      ></line>
+
+
+      <line
+        x1="132"
+        y1="0"
+        x2="132"
+        y2="450"
+        stroke="#8FE0B4"
+        stroke-width="1"
+        opacity=".28"
+        stroke-dasharray="7 8"
+      ></line>
+
+
+      <rect
+        x="104"
+        y="0"
+        width="6"
+        height="450"
+        fill="#000"
+        opacity=".18"
+      ></rect>
+
+
+      <rect
+        x="130"
+        y="0"
+        width="6"
+        height="450"
+        fill="#000"
+        opacity=".22"
+      ></rect>
+
+    </svg>
+
+
+
+    <div
+      class="strap-print"
+      aria-hidden="true"
+    >
+
+      <span>
+        SMK MANDIRI
+      </span>
+
+      <span>
+        RAJA SIYO
+      </span>
+
+      <span>
+        SMK MANDIRI
+      </span>
+
+      <span>
+        RAJA SIYO
+      </span>
+
+    </div>
+
+
+
+    <svg
+      class="clip"
+      viewBox="0 0 60 46"
+      aria-hidden="true"
+    >
+
+      <defs>
+
+        <linearGradient
+          id="metal"
+          x1="0"
+          y1="0"
+          x2="1"
+          y2="1"
+        >
+
+          <stop
+            offset="0"
+            stop-color="#F2F5F6"
+          >
+
+          <stop
+            offset=".35"
+            stop-color="#96A2A7"
+          >
+
+          <stop
+            offset=".55"
+            stop-color="#E6EBED"
+          >
+
+          <stop
+            offset="1"
+            stop-color="#78848A"
+          >
+
+        </linearGradient>
+
+      </defs>
+
+
+      <rect
+        x="12"
+        y="0"
+        width="36"
+        height="12"
+        rx="4"
+        fill="url(#metal)"
+      ></rect>
+
+
+      <rect
+        x="19"
+        y="9"
+        width="22"
+        height="26"
+        rx="4"
+        fill="url(#metal)"
+      ></rect>
+
+
+      <rect
+        x="25"
+        y="15"
+        width="10"
+        height="16"
+        rx="3"
+        fill="#0A1116"
+        opacity=".5"
+      ></rect>
+
+    </svg>
+
+
+
+    <div
+      class="badge-card"
+      id="badgeCard"
+    >
+
+
+      <div class="face front">
+
+        <span
+          class="punch"
+          aria-hidden="true"
+        ></span>
+
+
+        <header class="id-head">
+
+          <span class="id-school">
+            SMK Mandiri
+          </span>
+
+          <span class="id-dept">
+            Computer Engineering
+          </span>
+
+        </header>
+
+
+        <div class="id-photo">
+
+          <b aria-hidden="true">
+            RS
+          </b>
+
+
+          <img
+            id="foto"
+            src="img/foto.jpg"
+            alt="Foto M. Raja Siyo"
+            onerror="this.classList.add('gagal')"
+          >
+
+        </div>
+
+
+        <div class="id-body">
+
+          <p class="id-name">
+            M. Raja Siyo
+          </p>
+
+          <p class="id-class">
+            Pelajar XII RPL 1
+          </p>
+
+          <p class="id-tags">
+            Pencinta alam
+            &middot;
+            Gym
+            &middot;
+            Web
+          </p>
+
+        </div>
+
+
+        <footer class="id-foot">
+
+          <span
+            class="barcode"
+            aria-hidden="true"
+          ></span>
+
+          <span class="id-no">
+            No. 007
+          </span>
+
+        </footer>
+
+      </div>
+
+
+
+      <div
+        class="face back"
+        aria-hidden="true"
+      >
+
+        <span class="back-mark">
+          RS
+        </span>
+
+        <p class="back-line">
+          Kalau ketemu kartu ini di jalur pendakian,
+        </p>
+
+        <p class="back-line strong">
+          tolong balikin ke pemiliknya.
+        </p>
+
+        <p class="back-small">
+          SMK Mandiri
+          &mdash;
+          Computer Engineering
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+  <p
+    class="badge-tip"
+    id="badgeTip"
+  >
+
+    Tarik bet namanya, lalu lepas
+
+  </p>
+
+
+
+  <ol
+    class="rail"
+    id="rail"
+    aria-hidden="true"
+  >
+
+    <li>
+      <i></i>
+      <span>tenang</span>
+    </li>
+
+    <li>
+      <i></i>
+      <span>meletus</span>
+    </li>
+
+    <li>
+      <i></i>
+      <span>abu reda</span>
+    </li>
+
+    <li>
+      <i></i>
+      <span>bet nama</span>
+    </li>
+
+  </ol>
+
+
+
+  <div
+    class="cue"
+    id="cue"
+  >
+
+    <span>
+      Scroll
+    </span>
+
+    <i aria-hidden="true"></i>
+
+  </div>
+
+</section>
+
+</div>
+
+
+
+<!-- =========================================================
+     ABOUT ME
+     ========================================================= -->
+
+<section
+  class="about"
+  id="about"
+>
+
+
+  <div class="about-intro">
+
+
+    <!-- ================= FOTO ================= -->
+
+    <div
+      class="about-photo"
+      id="aboutPhotos"
+    >
+
+
+      <div
+        class="about-photo-card photo-one"
+      >
+
+        <img
+          src="img/about-1.jpg"
+          alt="M. Raja Siyo"
+        >
+
+        <div class="photo-label">
+
+          <span>
+            01
+          </span>
+
+          <strong>
+            Pencinta Alam
+          </strong>
+
+        </div>
+
+      </div>
+
+
+
+      <div
+        class="about-photo-card photo-two"
+      >
+
+        <img
+          src="img/about-2.jpg"
+          alt="M. Raja Siyo"
+        >
+
+        <div class="photo-label">
+
+          <span>
+            02
+          </span>
+
+          <strong>
+            Gym
+          </strong>
+
+        </div>
+
+      </div>
+
+
+
+      <div
+        class="about-photo-card photo-three"
+      >
+
+        <img
+          src="img/about-3.jpg"
+          alt="M. Raja Siyo"
+        >
+
+        <div class="photo-label">
+
+          <span>
+            03
+          </span>
+
+          <strong>
+            Web Development
+          </strong>
+
+        </div>
+
+      </div>
+
+
+
+    </div>
+
+
+
+    <!-- ================= TEXT ABOUT ================= -->
+
+    <div class="about-content">
+
+
+      <p class="about-kicker">
+        ABOUT ME
+      </p>
+
+
+      <h2 class="about-title">
+
+        Kenalin,<br>
+
+        saya <span>
+          Raja.
+        </span>
+
+      </h2>
+
+
+      <h3 class="about-three-title">
+
+        Tiga hal yang<br>
+        saya suka<span>.</span>
+
+      </h3>
+
+
+
+      <div class="about-description">
+
+
+        <p>
+
+          Saya
+          <strong>
+            M. Raja Siyo
+          </strong>,
+
+          seorang pelajar kelas
+          <strong>
+            XII RPL 1
+          </strong>
+
+          di sekolah swasta
+          <strong>
+            SMK Mandiri
+          </strong>.
+
+        </p>
+
+
+
+        <p>
+
+          Saya punya tiga hal yang paling sering saya jalani:
+
+          <strong>
+            pencinta alam, gym, dan web development.
+          </strong>
+
+          Dari alam saya belajar tentang daya tahan
+          dan tidak gampang menyerah.
+
+          Dari gym saya belajar tentang kekuatan
+          dan konsistensi.
+
+        </p>
+
+
+
+        <p>
+
+          Sedangkan dari web development saya belajar
+          bagaimana membuat sesuatu dari nol,
+
+          mulai dari tampilan sampai sistem
+          yang bisa digunakan.
+
+        </p>
+
+      </div>
+
+
+
+      <div class="about-info">
+
+
+        <div class="about-info-item">
+
+          <span>
+            STATUS
+          </span>
+
+          <strong>
+            Pelajar XII RPL 1
+          </strong>
+
+        </div>
+
+
+        <div class="about-info-item">
+
+          <span>
+            SEKOLAH
+          </span>
+
+          <strong>
+            SMK Mandiri
+          </strong>
+
+        </div>
+
+
+        <div class="about-info-item">
+
+          <span>
+            MINAT
+          </span>
+
+          <strong>
+            Pencinta Alam · Gym · Web
+          </strong>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+  <!-- =====================================================
+       TIGA HAL YANG SAYA SUKA
+       ===================================================== -->
+
+<div class="about-favorites">
+
+  <div class="favorites-heading">
+
+    <div>
+
+      <p class="about-kicker">
+        ABOUT ME
+      </p>
+
+      <h3>
+        Tiga hal yang<br>
+        saya suka<span>.</span>
+      </h3>
+
+    </div>
+
+    <p class="favorites-intro">
+      Hal-hal yang paling sering mengisi waktu
+      dan terus saya kembangkan. Dari setiap
+      prosesnya, saya belajar tentang konsistensi,
+      disiplin, dan bagaimana menjadi versi diri
+      yang lebih baik.
+    </p>
+
+  </div>
+
+
+  <!-- 01 -->
+
+  <article class="favorite-row favorite-row-left">
+
+    <div class="favorite-image" data-carousel="alam" tabindex="0" role="button" aria-label="Klik untuk mengganti foto pencinta alam">
+
+      <div class="favorite-slides">
+        <img class="favorite-slide is-active" src="img/about-01.jpg" alt="M. Raja Siyo sedang menikmati alam">
+        <img class="favorite-slide" src="img/about-11.jpg" alt="Foto pencinta alam M. Raja Siyo">
+        <img class="favorite-slide" src="img/about-01-3.jpg" alt="Foto alam M. Raja Siyo ketiga">
+      </div>
+
+    </div>
+
+
+    <div class="favorite-content">
+
+      <div class="favorite-meta">
+
+        <span class="favorite-line"></span>
+
+        <span>01</span>
+
+        <span>/</span>
+
+        <span>PENCINTA ALAM</span>
+
+      </div>
+
+
+      <p>
+        Suka menjelajah alam, mendaki, dan
+        melakukan perjalanan jauh. Dari setiap
+        perjalanan saya belajar untuk tetap
+        berjalan, menghargai proses, dan tidak
+        mudah menyerah.
+      </p>
+
+
+      <div class="favorite-tags">
+
+        <span>Hiking</span>
+        <span>Outdoor</span>
+        <span>Adventure</span>
+        <span>Survival</span>
+
+      </div>
+
+    </div>
+
+
+    <div class="favorite-big-number">
+      01
+    </div>
+
+  </article>
+
+
+
+  <!-- 02 -->
+
+  <article class="favorite-row favorite-row-right">
+
+    <div class="favorite-big-number">
+      02
+    </div>
+
+
+    <div class="favorite-content">
+
+      <div class="favorite-meta">
+
+        <span class="favorite-line"></span>
+
+        <span>02</span>
+
+        <span>/</span>
+
+        <span>GYM</span>
+
+      </div>
+
+
+      <p>
+        Suka latihan beban dan terus meningkatkan
+        kekuatan. Salah satu latihan yang saya
+        lakukan adalah rowing dengan beban
+        <strong>20 kg</strong>.
+
+        Gym mengajarkan saya tentang disiplin,
+        konsistensi, dan mental yang kuat.
+      </p>
+
+
+      <div class="favorite-tags">
+
+        <span>Weight Training</span>
+        <span>Strength</span>
+        <span>Discipline</span>
+        <span>Healthy</span>
+
+      </div>
+
+    </div>
+
+
+    <div class="favorite-image" data-carousel="gym" tabindex="0" role="button" aria-label="Klik untuk mengganti foto gym">
+
+      <div class="favorite-slides">
+        <img class="favorite-slide is-active" src="img/about-222.jpg" alt="M. Raja Siyo sedang latihan gym">
+        <img class="favorite-slide" src="img/about-2.jpg" alt="Foto gym M. Raja Siyo">
+        <img class="favorite-slide" src="img/about-333.jpg" alt="Foto gym M. Raja Siyo ketiga">
+      </div>
+
+    </div>
+
+  </article>
+
+
+
+  <!-- 03 -->
+
+  <article class="favorite-row favorite-row-left">
+
+    <div class="favorite-image" data-carousel="web" tabindex="0" role="button" aria-label="Klik untuk mengganti foto web development">
+
+      <div class="favorite-slides">
+        <img class="favorite-slide is-active" src="img/about-03.jpg" alt="M. Raja Siyo sedang membuat website">
+        <img class="favorite-slide" src="img/about-3.jpg" alt="Foto web development M. Raja Siyo">
+        <img class="favorite-slide" src="img/project-01-31.jpg" alt="Project website M. Raja Siyo">
+      </div>
+
+    </div>
+
+
+    <div class="favorite-content">
+
+      <div class="favorite-meta">
+
+        <span class="favorite-line"></span>
+
+        <span>03</span>
+
+        <span>/</span>
+
+        <span>WEB DEVELOPMENT</span>
+
+      </div>
+
+
+      <p>
+        Belajar membuat website dari tampilan
+        sampai sistemnya menggunakan HTML,
+        CSS, JavaScript, PHP, dan MySQL.
+
+        Saya suka membuat sesuatu dari nol
+        dan melihat hasilnya bisa digunakan.
+      </p>
+
+
+      <div class="favorite-tags">
+
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>PHP</span>
+        <span>MySQL</span>
+
+      </div>
+
+    </div>
+
+
+    <div class="favorite-big-number">
+      03
+    </div>
+
+  </article>
+
+</div>
+
+
+
+  <!-- ABOUT FOOTER -->
+
+  <div class="about-bottom">
+
+    <span>
+      XII RPL 1
+    </span>
+
+    <span>
+      SMK Mandiri
+    </span>
+
+    <span>
+      Pencinta Alam · Gym · Web
+    </span>
+
+    <span>
+      M. Raja Siyo
+    </span>
+
+  </div>
+
+
+</section>
+
+
+
+<!-- =========================================================
+     TENTANG / PENGALAMAN
+     ========================================================= -->
+
+<section
+  class="experience-section"
+  id="tentang"
+>
+
+  <div class="experience-head">
+
+    <div class="experience-heading">
+
+      <p class="experience-kicker">
+        EXPERIENCE
+        <span></span>
+      </p>
+
+      <h2>
+        Pengalaman<br>
+        M. Raja Siyo<span>.</span>
+      </h2>
+
+    </div>
+
+
+    <p class="experience-lead">
+      Sebuah perjalanan yang membentuk cara saya berpikir,
+      melihat dunia, dan terus menjadi versi diri yang lebih baik.
+      Berikut tiga hal yang paling berarti dalam perjalanan saya.
+    </p>
+
+  </div>
+
+
+
+  <div
+    class="experience-carousel"
+    id="experienceCarousel"
+  >
+
+    <button
+      class="experience-arrow experience-prev"
+      id="experiencePrev"
+      type="button"
+      aria-label="Foto sebelumnya"
+    >
+      ←
+    </button>
+
+
+    <div class="experience-track">
+
+
+      <article
+        class="experience-card"
+        data-index="0"
+        data-title="Pencinta Alam"
+        data-link="tentang-alam.html"
+      >
+
+        <div class="experience-card-image">
+
+          <img
+            src="img/about-01.jpg"
+            alt="Pencinta Alam M. Raja Siyo"
+          >
+
+        </div>
+
+
+        <div class="experience-card-overlay">
+
+          <span>01</span>
+
+          <h3>
+            Pencinta Alam
+          </h3>
+
+          <a href="tentang-alam.html">
+            Lihat selengkapnya
+            <span>→</span>
+          </a>
+
+        </div>
+
+      </article>
+
+
+
+      <article
+        class="experience-card"
+        data-index="1"
+        data-title="Dunia Gym"
+        data-link="tentang-gym.html"
+      >
+
+        <div class="experience-card-image">
+
+          <img
+            src="img/about-02.jpg"
+            alt="Dunia Gym M. Raja Siyo"
+          >
+
+        </div>
+
+
+        <div class="experience-card-overlay">
+
+          <span>02</span>
+
+          <h3>
+            Dunia Gym
+          </h3>
+
+          <a href="tentang-gym.html">
+            Lihat selengkapnya
+            <span>→</span>
+          </a>
+
+        </div>
+
+      </article>
+
+
+
+      <article
+        class="experience-card"
+        data-index="2"
+        data-title="Web Developer"
+        data-link="tentang-web.html"
+      >
+
+        <div class="experience-card-image">
+
+          <img
+            src="img/about-03.jpg"
+            alt="Web Developer M. Raja Siyo"
+          >
+
+        </div>
+
+
+        <div class="experience-card-overlay">
+
+          <span>03</span>
+
+          <h3>
+            Web Developer
+          </h3>
+
+          <a href="tentang-web.html">
+            Lihat selengkapnya
+            <span>→</span>
+          </a>
+
+        </div>
+
+      </article>
+
+    </div>
+
+
+    <button
+      class="experience-arrow experience-next"
+      id="experienceNext"
+      type="button"
+      aria-label="Foto berikutnya"
+    >
+      →
+    </button>
+
+  </div>
+
+
+
+  <div
+    class="experience-dots"
+    id="experienceDots"
+    aria-label="Posisi carousel"
+  >
+
+    <button
+      type="button"
+      data-slide="0"
+      aria-label="Pencinta Alam"
+    ></button>
+
+    <button
+      type="button"
+      data-slide="1"
+      aria-label="Dunia Gym"
+    ></button>
+
+    <button
+      type="button"
+      data-slide="2"
+      aria-label="Web Developer"
+    ></button>
+
+  </div>
+
+
+
+  <div class="experience-story">
+
+    <p class="experience-story-kicker">
+      CERITA SAYA
+    </p>
+
+    <div
+      class="experience-typewriter"
+      aria-live="polite"
+    >
+
+      <span id="experienceTypedText"></span>
+
+      <span
+        class="typewriter-cursor"
+        aria-hidden="true"
+      ></span>
+
+    </div>
+
+
+    <p class="experience-story-copy">
+      Dari gunung, latihan, sampai baris kode.
+      Setiap pengalaman memberi saya sesuatu untuk dipelajari,
+      dibangun, dan dibawa ke langkah berikutnya.
+    </p>
+
+
+    <a
+      class="experience-story-link"
+      href="#contact"
+    >
+      Jelajahi perjalanan saya
+      <span>→</span>
+    </a>
+
+  </div>
+
+
+
+  <div
+    class="experience-wave"
+    aria-hidden="true"
+  >
+
+    <div class="experience-wave-line experience-wave-line-one">
+
+      <div class="experience-wave-track">
+
+        <span>PENGALAMAN M. RAJA SIYO</span>
+        <b>✦</b>
+
+        <span>PENCINTA ALAM</span>
+        <b>✦</b>
+
+        <span>DUNIA GYM</span>
+        <b>✦</b>
+
+        <span>WEB DEVELOPER</span>
+        <b>✦</b>
+
+        <span>PENGALAMAN M. RAJA SIYO</span>
+        <b>✦</b>
+
+        <span>PENCINTA ALAM</span>
+        <b>✦</b>
+
+        <span>DUNIA GYM</span>
+        <b>✦</b>
+
+        <span>WEB DEVELOPER</span>
+        <b>✦</b>
+
+      </div>
+
+    </div>
+
+
+    <div class="experience-wave-line experience-wave-line-two">
+
+      <div class="experience-wave-track">
+
+        <span>M. RAJA SIYO</span>
+        <b>✦</b>
+
+        <span>ALAM</span>
+        <b>✦</b>
+
+        <span>GYM</span>
+        <b>✦</b>
+
+        <span>WEB DEVELOPMENT</span>
+        <b>✦</b>
+
+        <span>M. RAJA SIYO</span>
+        <b>✦</b>
+
+        <span>ALAM</span>
+        <b>✦</b>
+
+        <span>GYM</span>
+        <b>✦</b>
+
+        <span>WEB DEVELOPMENT</span>
+        <b>✦</b>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+  <div class="experience-bottom-note">
+
+    <span>
+      SCROLL UNTUK MELANJUTKAN
+    </span>
+
+    <i></i>
+
+  </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     MY JOURNEY
+     ========================================================= -->
+
+<section
+  class="journey-section"
+  id="journey"
+>
+
+  <div class="journey-header">
+
+    <div class="journey-heading">
+
+      <p class="journey-kicker">
+        04 / MY JOURNEY
+        <span></span>
+      </p>
+
+      <h2>
+        SETIAP LANGKAH<br>
+        MEMBENTUK<br>
+        <strong>HARI INI.</strong>
+      </h2>
+
+    </div>
+
+
+    <div class="journey-intro">
+
+      <p>
+        Perjalanan pendidikan saya adalah bagian penting
+        dari siapa saya sekarang.
+      </p>
+
+      <p>
+        Dari SD, SMP, hingga memilih RPL di SMK,
+        setiap tempat menjadi bagian dari cerita
+        dan proses saya berkembang.
+      </p>
+
+    </div>
+
+  </div>
+
+
+
+  <div class="journey-timeline">
+
+
+    <!-- ================= SD ================= -->
+
+    <article
+      class="journey-item journey-item-one"
+    >
+
+      <div class="journey-photo">
+
+        <span class="journey-photo-number">
+          01
+        </span>
+
+        <img
+          src="img/journey-sd.jpg"
+          alt="Sekolah Dasar M. Raja Siyo"
+        >
+
+      </div>
+
+
+      <div class="journey-line-point">
+        <span></span>
+      </div>
+
+
+      <div class="journey-card">
+
+        <span class="journey-card-number">
+          01
+        </span>
+
+        <span class="journey-card-label">
+          SEKOLAH DASAR
+        </span>
+
+        <h3>
+          MIS AN NUR
+        </h3>
+
+
+        <div class="journey-meta">
+
+          <div>
+
+            <span>
+              TAHUN
+            </span>
+
+            <strong>
+              2015 — 2021
+            </strong>
+
+          </div>
+
+
+          <div>
+
+            <span>
+              LOKASI
+            </span>
+
+            <a
+              class="journey-location-link"
+              href="https://www.google.com/maps?q=3.664786,98.726893"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+
+              Jl. Suka Maju Pasar VII No.114,
+              Desa Bandar Khalifa
+
+              <span>
+                ↗
+              </span>
+
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <p>
+          Di sinilah perjalanan pendidikan saya dimulai.
+          Tempat pertama saya belajar, bertemu banyak orang,
+          dan membangun pengalaman pertama.
+        </p>
+
+
+        <a
+          href="https://eventkampus.com/sekolah/mis-an-nur__132571"
+          class="journey-school-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+
+          Website Sekolah
+          <span>↗</span>
+
+        </a>
+
+      </div>
+
+    </article>
+
+
+
+    <!-- ================= SMP ================= -->
+
+    <article
+      class="journey-item journey-item-two"
+    >
+
+      <div class="journey-card">
+
+        <span class="journey-card-number">
+          02
+        </span>
+
+        <span class="journey-card-label">
+          SEKOLAH MENENGAH PERTAMA
+        </span>
+
+        <h3>
+          MTS CERDAS MURNI
+        </h3>
+
+
+        <div class="journey-meta">
+
+          <div>
+
+            <span>
+              TAHUN
+            </span>
+
+            <strong>
+              2021 — 2024
+            </strong>
+
+          </div>
+
+
+          <div>
+
+            <span>
+              LOKASI
+            </span>
+
+            <a
+              class="journey-location-link"
+              href="https://maps.app.goo.gl/xc9G8Z5bHMHZ71gz5"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+
+              Jl. Beringin Ps. VII No.33,
+              Hutan, Kec. Percut Sei Tuan,
+              Kabupaten Deli Serdang,
+              Sumatera Utara 20371
+
+              <span>
+                ↗
+              </span>
+
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <p>
+          Di masa SMP, saya mulai menemukan banyak
+          hal baru, memperluas pergaulan, dan belajar
+          menjadi lebih mandiri.
+        </p>
+
+
+        <a
+          href="https://www.cerdasmurni.sch.id/"
+          class="journey-school-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+
+          Website Sekolah
+          <span>↗</span>
+
+        </a>
+
+      </div>
+
+
+      <div class="journey-line-point">
+        <span></span>
+      </div>
+
+
+      <div class="journey-photo">
+
+        <span class="journey-photo-number">
+          02
+        </span>
+
+        <img
+          src="img/journey-smp.jpg"
+          alt="Sekolah SMP M. Raja Siyo"
+        >
+
+      </div>
+
+    </article>
+
+
+
+    <!-- ================= SMK ================= -->
+
+    <article
+      class="journey-item journey-item-three"
+    >
+
+      <div class="journey-photo">
+
+        <span class="journey-photo-number">
+          03
+        </span>
+
+        <img
+          src="img/journey-smk.jpg"
+          alt="Sekolah SMK M. Raja Siyo"
+        >
+
+      </div>
+
+
+      <div class="journey-line-point">
+        <span></span>
+      </div>
+
+
+      <div class="journey-card">
+
+        <span class="journey-card-number">
+          03
+        </span>
+
+        <span class="journey-card-label">
+          SMK — RPL
+        </span>
+
+        <h3>
+          SMK SWASTA MANDIRI
+        </h3>
+
+
+        <div class="journey-meta">
+
+          <div>
+
+            <span>
+              TAHUN
+            </span>
+
+            <strong>
+              2024 — 2027
+            </strong>
+
+          </div>
+
+
+          <div>
+
+            <span>
+              JURUSAN
+            </span>
+
+            <strong>
+              Rekayasa Perangkat Lunak
+            </strong>
+
+          </div>
+
+
+          <div>
+
+            <span>
+              LOKASI
+            </span>
+
+            <a
+              class="journey-location-link"
+              href="https://www.google.com/maps?q=3.5808,98.7398"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+
+              Lokasi SMK Mandiri
+
+              <span>
+                ↗
+              </span>
+
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <p>
+          Di SMK saya mulai menemukan arah.
+          Saya mengenal dunia teknologi, coding,
+          dan mulai membuat website sendiri.
+        </p>
+
+
+        <a
+          href="https://smkmandiri.sch.id/"
+          class="journey-school-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+
+          Website Sekolah
+          <span>↗</span>
+
+        </a>
+
+      </div>
+
+    </article>
+
+  </div>
+
+
+
+  <div class="journey-footer">
+
+    <span>
+      SCROLL TO EXPLORE
+    </span>
+
+    <div class="journey-progress">
+      <i></i>
+    </div>
+
+    <span>
+      03 / 03
+    </span>
+
+    <p>
+      Perjalanan masih panjang.<br>
+      Dan ceritanya masih berlanjut.
+    </p>
+
+  </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     PRESTASI / ACHIEVEMENTS
+     TAMBAHAN BARU
+     ========================================================= -->
+
+<section
+  class="achievements-section"
+  id="achievements"
+>
+
+
+  <!-- ================= HEADER ================= -->
+
+  <div class="achievements-header">
+
+
+    <div class="achievements-title">
+
+      <p class="achievements-kicker">
+
+        05 / ACHIEVEMENTS
+
+        <span></span>
+
+      </p>
+
+
+      <h2>
+
+        PROUD OF<br>
+
+        THE
+        <strong>
+          PROGRESS.
+        </strong>
+
+      </h2>
+
+    </div>
+
+
+
+    <div class="achievements-intro">
+
+      <p>
+        Beberapa pencapaian yang menjadi bagian
+        dari perjalanan saya selama bersekolah.
+      </p>
+
+      <span>
+        03 CERTIFICATES
+      </span>
+
+    </div>
+
+  </div>
+
+
+
+  <!-- ================= CERTIFICATE STAGE ================= -->
+
+  <div class="achievements-stage">
+
+
+    <div class="achievement-line"></div>
+
+
+
+    <!-- ================= SERTIFIKAT 01 ================= -->
+
+    <article
+      class="achievement-card achievement-card-one"
+      data-index="0"
+    >
+
+      <div class="achievement-number">
+        01
+      </div>
+
+
+      <div class="achievement-paper">
+
+        <div class="achievement-image">
+
+          <img
+            src="img/sertifikat-01.jpg"
+            alt="Sertifikat prestasi 01"
+          >
+
+
+          <div class="achievement-image-overlay">
+
+            <span>
+              OPEN
+            </span>
+
+            <i>
+              ↗
+            </i>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+      <div class="achievement-info">
+
+        <span class="achievement-type">
+          CERTIFICATE / 01
+        </span>
+
+
+        <h3>
+          Prestasi Pertama
+        </h3>
+
+
+        <p>
+          Sertifikat pencapaian saya selama
+          perjalanan pendidikan.
+        </p>
+
+
+        <button
+          type="button"
+          class="achievement-open"
+          data-index="0"
+        >
+
+          Lihat Sertifikat
+
+          <span>
+            ↗
+          </span>
+
+        </button>
+
+      </div>
+
+    </article>
+
+
+
+    <!-- ================= SERTIFIKAT 02 ================= -->
+
+    <article
+      class="achievement-card achievement-card-two"
+      data-index="1"
+    >
+
+      <div class="achievement-number">
+        02
+      </div>
+
+
+      <div class="achievement-paper">
+
+        <div class="achievement-image">
+
+          <img
+            src="img/sertifikat-02.jpg"
+            alt="Sertifikat prestasi 02"
+          >
+
+
+          <div class="achievement-image-overlay">
+
+            <span>
+              OPEN
+            </span>
+
+            <i>
+              ↗
+            </i>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+      <div class="achievement-info">
+
+        <span class="achievement-type">
+          CERTIFICATE / 02
+        </span>
+
+
+        <h3>
+          Prestasi Kedua
+        </h3>
+
+
+        <p>
+          Salah satu pencapaian yang menjadi
+          bagian dari proses saya berkembang.
+        </p>
+
+
+        <button
+          type="button"
+          class="achievement-open"
+          data-index="1"
+        >
+
+          Lihat Sertifikat
+
+          <span>
+            ↗
+          </span>
+
+        </button>
+
+      </div>
+
+    </article>
+
+
+
+    <!-- ================= SERTIFIKAT 03 ================= -->
+
+    <article
+      class="achievement-card achievement-card-three"
+      data-index="2"
+    >
+
+      <div class="achievement-number">
+        03
+      </div>
+
+
+      <div class="achievement-paper">
+
+        <div class="achievement-image">
+
+          <img
+            src="img/sertifikat-03.jpg"
+            alt="Sertifikat prestasi 03"
+          >
+
+
+          <div class="achievement-image-overlay">
+
+            <span>
+              OPEN
+            </span>
+
+            <i>
+              ↗
+            </i>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+      <div class="achievement-info">
+
+        <span class="achievement-type">
+          CERTIFICATE / 03
+        </span>
+
+
+        <h3>
+          Prestasi Ketiga
+        </h3>
+
+
+        <p>
+          Pencapaian lain yang menjadi bagian
+          dari perjalanan saya di sekolah.
+        </p>
+
+
+        <button
+          type="button"
+          class="achievement-open"
+          data-index="2"
+        >
+
+          Lihat Sertifikat
+
+          <span>
+            ↗
+          </span>
+
+        </button>
+
+      </div>
+
+    </article>
+
+  </div>
+
+
+
+  <!-- ================= FOOTER ================= -->
+
+  <div class="achievements-footer">
+
+    <span>
+      03 / 03
+    </span>
+
+
+    <div class="achievement-progress">
+      <i></i>
+    </div>
+
+
+    <span>
+      SCROLL TO DISCOVER
+    </span>
+
+  </div>
+
+</section>
+
+
+
+<!-- =========================================================
+     CERTIFICATE MODAL
+     ========================================================= -->
+
+<div
+  class="certificate-modal"
+  id="certificateModal"
+  aria-hidden="true"
+>
+
+
+  <div
+    class="certificate-backdrop"
+    data-close-certificate
+  ></div>
+
+
+
+  <div class="certificate-viewer">
+
+
+    <button
+      type="button"
+      class="certificate-close"
+      id="certificateClose"
+      aria-label="Tutup"
+    >
+      ×
+    </button>
+
+
+
+    <div class="certificate-viewer-top">
+
+      <span id="certificateViewerNumber">
+        01 / 03
+      </span>
+
+      <span>
+        CERTIFICATE VIEWER
+      </span>
+
+    </div>
+
+
+
+    <div class="certificate-viewer-image">
+
+      <img
+        id="certificateViewerImage"
+        src=""
+        alt="Sertifikat"
+      >
+
+    </div>
+
+
+
+    <div class="certificate-viewer-bottom">
+
+
+      <button
+        type="button"
+        id="certificatePrev"
+        aria-label="Sertifikat sebelumnya"
+      >
+        ←
+      </button>
+
+
+
+      <div>
+
+        <strong
+          id="certificateViewerTitle"
+        >
+          Prestasi Pertama
+        </strong>
+
+        <span>
+          M. Raja Siyo
+        </span>
+
+      </div>
+
+
+
+      <button
+        type="button"
+        id="certificateNext"
+        aria-label="Sertifikat berikutnya"
+      >
+        →
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+<!-- =========================================================
+     PROJECT SHOWCASE
+     ========================================================= -->
+
+<section
+  class="project-showcase"
+  id="project"
+>
+
+
+  <div class="project-top">
+
+
+    <div class="project-title">
+
+      <div class="project-label">
+
+        <span></span>
+
+        03 / PROJECTS
+
+      </div>
+
+
+      <h2>
+
+        Things I've<br>
+
+        <strong>
+          built.
+        </strong>
+
+      </h2>
+
+    </div>
+
+
+
+    <div class="project-description">
+
+      <p>
+        Beberapa website yang pernah saya buat
+        selama belajar web development.
+        Setiap project menjadi bagian dari
+        proses belajar dan pengalaman saya.
+      </p>
+
+
+      <div class="project-quote">
+
+        “Build<br>
+        Learn<br>
+        Improve<br>
+        Repeat”
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+  <!-- ================= PROJECT SLIDER ================= -->
+
+  <div class="project-slider-wrapper">
+
+
+    <button
+      class="project-control project-prev"
+      id="projectPrev"
+      type="button"
+    >
+      ←
+    </button>
+
+
+
+    <div
+      class="project-slider"
+      id="projectSlider"
+    >
+
+
+      <!-- PROJECT 01 -->
+
+      <article class="project-item">
+
+        <div class="project-card">
+
+
+          <div class="project-card-top">
+
+            <span>
+              /01
+            </span>
+
+            <small>
+              WEBSITE PROJECT
+            </small>
+
+          </div>
+
+
+
+          <div class="project-card-body">
+
+
+            <div
+              class="project-preview project-preview-slider"
+              data-project="1"
+            >
+
+              <img
+                class="project-slide is-active"
+                src="img/project-01-1.jpg"
+                alt="FBS UNIMED preview 1"
+              >
+
+              <img
+                class="project-slide"
+                src="img/project-01-2.jpg"
+                alt="FBS UNIMED preview 2"
+              >
+
+              <img
+                class="project-slide"
+                src="img/project-01-3.jpg"
+                alt="FBS UNIMED preview 3"
+              >
+
+
+              <div
+                class="project-photo-count"
+                aria-hidden="true"
+              >
+
+                <span class="current">
+                  01
+                </span>
+
+                <span>
+                  /
+                </span>
+
+                <span>
+                  03
+                </span>
+
+              </div>
+
+            </div>
+
+
+
+            <div class="project-content">
+
+              <span class="project-category">
+                WEBSITE
+              </span>
+
+
+              <h3>
+                FBS UNIMED
+              </h3>
+
+
+              <p>
+                Website sistem pencatatan layanan
+                yang saya buat menggunakan HTML,
+                CSS, PHP dan MySQL.
+              </p>
+
+
+
+              <div class="project-tech">
+
+                <span>
+                  HTML
+                </span>
+
+                <span>
+                  CSS
+                </span>
+
+                <span>
+                  PHP
+                </span>
+
+                <span>
+                  MYSQL
+                </span>
+
+              </div>
+
+
+
+              <a
+                href="LINK-WEBSITE-1"
+                target="_blank"
+                rel="noopener"
+                class="project-link"
+              >
+
+                Lihat Website
+
+                <span>
+                  ↗
+                </span>
+
+              </a>
+
+            </div>
+
+          </div>
+
+
+
+          <div class="project-card-number">
+            01
+          </div>
+
+        </div>
+
+      </article>
+
+
+
+      <!-- PROJECT 02 -->
+
+      <article class="project-item">
+
+        <div class="project-card">
+
+
+          <div class="project-card-top">
+
+            <span>
+              /02
+            </span>
+
+            <small>
+              WEBSITE PROJECT
+            </small>
+
+          </div>
+
+
+
+          <div class="project-card-body">
+
+
+            <div
+              class="project-preview project-preview-slider"
+              data-project="2"
+            >
+
+              <img
+                class="project-slide is-active"
+                src="img/project-022-1.jpg"
+                alt="Project Website 02 preview 1"
+              >
+
+              <img
+                class="project-slide"
+                src="img/project-022-2.jpg"
+                alt="Project Website 02 preview 2"
+              >
+
+              <img
+                class="project-slide"
+                src="img/project-022-3.jpg"
+                alt="Project Website 02 preview 3"
+              >
+
+
+              <div
+                class="project-photo-count"
+                aria-hidden="true"
+              >
+
+                <span class="current">
+                  01
+                </span>
+
+                <span>
+                  /
+                </span>
+
+                <span>
+                  03
+                </span>
+
+              </div>
+
+            </div>
+
+
+
+            <div class="project-content">
+
+              <span class="project-category">
+                WEBSITE
+              </span>
+
+
+              <h3>
+                Penyediaan komsumsi rapat
+              </h3>
+
+
+              <p>
+                Website kedua yang saya buat
+                sebagai bagian dari proses belajar
+                web development.
+              </p>
+
+
+
+              <div class="project-tech">
+
+                <span>
+                  HTML
+                </span>
+
+                <span>
+                  CSS
+                </span>
+
+                <span>
+                  JAVASCRIPT
+                </span>
+
+              </div>
+
+
+
+              <a
+                href="LINK-WEBSITE-2"
+                target="_blank"
+                rel="noopener"
+                class="project-link"
+              >
+
+                Lihat Website
+
+                <span>
+                  ↗
+                </span>
+
+              </a>
+
+            </div>
+
+          </div>
+
+
+
+          <div class="project-card-number">
+            02
+          </div>
+
+        </div>
+
+      </article>
+
+
+
+      <!-- PROJECT 03 -->
+
+      <article class="project-item">
+
+        <div class="project-card">
+
+
+          <div class="project-card-top">
+
+            <span>
+              /03
+            </span>
+
+            <small>
+              WEBSITE PROJECT
+            </small>
+
+          </div>
+
+
+
+          <div class="project-card-body">
+
+
+            <div
+              class="project-preview project-preview-slider"
+              data-project="3"
+            >
+
+              <img
+                class="project-slide is-active"
+                src="img/project-03-1.jpg"
+                alt="Project Website 03 preview 1"
+              >
+
+              <img
+                class="project-slide"
+                src="img/project-03-2.jpg"
+                alt="Project Website 03 preview 2"
+              >
+
+              <img
+                class="project-slide"
+                src="img/project-03-3.jpg"
+                alt="Project Website 03 preview 3"
+              >
+
+
+              <div
+                class="project-photo-count"
+                aria-hidden="true"
+              >
+
+                <span class="current">
+                  01
+                </span>
+
+                <span>
+                  /
+                </span>
+
+                <span>
+                  03
+                </span>
+
+              </div>
+
+            </div>
+
+
+
+            <div class="project-content">
+
+              <span class="project-category">
+                WEBSITE
+              </span>
+
+
+              <h3>
+                Project Website 03
+              </h3>
+
+
+              <p>
+                Website ketiga yang saya buat
+                untuk mengembangkan kemampuan
+                HTML, CSS dan JavaScript.
+              </p>
+
+
+
+              <div class="project-tech">
+
+                <span>
+                  HTML
+                </span>
+
+                <span>
+                  CSS
+                </span>
+
+                <span>
+                  JAVASCRIPT
+                </span>
+
+              </div>
+
+
+
+              <a
+                href="LINK-WEBSITE-3"
+                target="_blank"
+                rel="noopener"
+                class="project-link"
+              >
+
+                Lihat Website
+
+                <span>
+                  ↗
+                </span>
+
+              </a>
+
+            </div>
+
+          </div>
+
+
+
+          <div class="project-card-number">
+            03
+          </div>
+
+        </div>
+
+      </article>
+
+
+    </div>
+
+
+
+    <button
+      class="project-control project-next"
+      id="projectNext"
+      type="button"
+    >
+      →
+    </button>
+
+  </div>
+
+
+
+  <!-- ================= PROJECT FOOTER ================= -->
+
+  <div class="project-footer">
+
+    <span>
+      01 / 03
+    </span>
+
+    <div class="project-progress">
+      <i></i>
+    </div>
+
+    <span>
+      GESER UNTUK MELIHAT PROJECT LAIN
+    </span>
+
+  </div>
+
+
+</section>
+
+
+
+<!-- =========================================================
+     CONTACT ME — INFINITE SOCIAL MARQUEE
+     ========================================================= -->
+
+<section class="contact-section contact-moving" id="contact">
+
+  <div class="contact-inner">
+
+    <div class="contact-moving-header">
+
+      <div class="contact-moving-heading">
+        <p class="contact-kicker">
+          07 / CONTACT ME
+          <span></span>
+        </p>
+
+        <h2 class="contact-moving-title">
+          LET'S
+          <strong>CONNECT.</strong>
+        </h2>
+
+        <div class="contact-moving-motto">
+          <span>GOOD PEOPLE</span>
+          <span>GOOD CONVERSATION</span>
+          <span>BETTER OPPORTUNITIES</span>
+        </div>
+      </div>
+
+      <div class="contact-moving-copy">
+        <p>
+          Punya pertanyaan, ingin ngobrol,
+          atau butuh bantuan membuat website?
+        </p>
+
+        <p>
+          Kalau mau nanya atau
+          <strong>joki website</strong>,
+          langsung DM aja lewat sosial media saya di bawah.
+        </p>
+
+        <div class="contact-moving-sign">
+          <span></span>
+          <em>"A simple message can create a big opportunity."</em>
+          <strong>M. Raja Siyo</strong>
+          <small>STAY IN TOUCH</small>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="contact-marquee" aria-label="Social media">
+
+      <div class="contact-marquee-track">
+
+        <!-- GROUP 1 -->
+        <div class="contact-marquee-group">
+
+          <a
+            href="https://wa.me/6288708759325"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="moving-card"
+          >
+            <div class="moving-card-photo">
+              <img src="img/sosmed-wa.jpg" alt="Foto profil WhatsApp">
+            </div>
+
+            <div class="moving-card-top">
+              <span>01</span>
+              <small>CHAT NOW</small>
+            </div>
+
+            <div class="moving-card-icon whatsapp">◔</div>
+
+            <p>WHATSAPP</p>
+            <strong>0887 0875 9325</strong>
+            <small>Langsung chat saya di WhatsApp</small>
+
+            <div class="moving-card-arrow">↗</div>
+            <span class="moving-card-button">CHAT SEKARANG <b>↗</b></span>
+          </a>
+
+
+          <a
+            href="https://www.instagram.com/jafrikoto_/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="moving-card"
+          >
+            <div class="moving-card-photo">
+              <img src="img/sosmed-ig.jpg" alt="Foto profil Instagram">
+            </div>
+
+            <div class="moving-card-top">
+              <span>02</span>
+              <small>FOLLOW ME</small>
+            </div>
+
+            <div class="moving-card-icon instagram">◎</div>
+
+            <p>INSTAGRAM</p>
+            <strong>@jafrikoto_</strong>
+            <small>Aktivitas dan cerita saya</small>
+
+            <div class="moving-card-arrow">↗</div>
+            <span class="moving-card-button">FOLLOW <b>↗</b></span>
+          </a>
+
+
+          <a
+            href="https://www.tiktok.com/@jaxfri"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="moving-card"
+          >
+            <div class="moving-card-photo">
+              <img src="img/sosmed-tiktok.jpg" alt="Foto profil TikTok">
+            </div>
+
+            <div class="moving-card-top">
+              <span>03</span>
+              <small>WATCH ME</small>
+            </div>
+
+            <div class="moving-card-icon tiktok">♪</div>
+
+            <p>TIKTOK</p>
+            <strong>@jaxfri</strong>
+            <small>Coding, random &amp; daily life</small>
+
+            <div class="moving-card-arrow">↗</div>
+            <span class="moving-card-button">WATCH <b>↗</b></span>
+          </a>
+
+        </div>
+
+
+        <!-- GROUP 2 — DUPLIKAT UNTUK LOOP TANPA PUTUS -->
+        <div class="contact-marquee-group" aria-hidden="true" inert>
+
+          <a
+            href="https://wa.me/6288708759325"
+            tabindex="-1"
+            class="moving-card"
+          >
+            <div class="moving-card-photo">
+              <img src="img/sosmed-wa.jpg" alt="">
+            </div>
+
+            <div class="moving-card-top">
+              <span>01</span>
+              <small>CHAT NOW</small>
+            </div>
+
+            <div class="moving-card-icon whatsapp">◔</div>
+            <p>WHATSAPP</p>
+            <strong>0887 0875 9325</strong>
+            <small>Langsung chat saya di WhatsApp</small>
+            <div class="moving-card-arrow">↗</div>
+            <span class="moving-card-button">CHAT SEKARANG <b>↗</b></span>
+          </a>
+
+
+          <a
+            href="https://www.instagram.com/jafrikoto_/"
+            tabindex="-1"
+            class="moving-card"
+          >
+            <div class="moving-card-photo">
+              <img src="img/sosmed-ig.jpg" alt="">
+            </div>
+
+            <div class="moving-card-top">
+              <span>02</span>
+              <small>FOLLOW ME</small>
+            </div>
+
+            <div class="moving-card-icon instagram">◎</div>
+            <p>INSTAGRAM</p>
+            <strong>@jafrikoto_</strong>
+            <small>Aktivitas dan cerita saya</small>
+            <div class="moving-card-arrow">↗</div>
+            <span class="moving-card-button">FOLLOW <b>↗</b></span>
+          </a>
+
+
+          <a
+            href="https://www.tiktok.com/@jaxfri"
+            tabindex="-1"
+            class="moving-card"
+          >
+            <div class="moving-card-photo">
+              <img src="img/sosmed-tiktok.jpg" alt="">
+            </div>
+
+            <div class="moving-card-top">
+              <span>03</span>
+              <small>WATCH ME</small>
+            </div>
+
+            <div class="moving-card-icon tiktok">♪</div>
+            <p>TIKTOK</p>
+            <strong>@jaxfri</strong>
+            <small>Coding, random &amp; daily life</small>
+            <div class="moving-card-arrow">↗</div>
+            <span class="moving-card-button">WATCH <b>↗</b></span>
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div class="contact-moving-services">
+
+      <div>
+        <span>⌨</span>
+        <p>
+          <small>JOKI WEBSITE</small>
+          Website tugas, pribadi, dll
+        </p>
+      </div>
+
+      <div>
+        <span>?</span>
+        <p>
+          <small>TANYA APAPUN</small>
+          Seputar sekolah, web, dll
+        </p>
+      </div>
+
+      <div>
+        <span>↗</span>
+        <p>
+          <small>COLLABORATION</small>
+          Project, ide, atau lainnya
+        </p>
+      </div>
+
+    </div>
+
+
+    <div class="contact-moving-bottom">
+      <span>FROM A MESSAGE</span>
+      <div></div>
+      <strong>M. RAJA SIYO</strong>
+      <div></div>
+      <span>TO A NEW STORY</span>
+    </div>
+
+  </div>
+
+
+  <div class="contact-moving-wave" aria-hidden="true">
+
+    <svg viewBox="0 0 1440 180" preserveAspectRatio="none">
+      <path
+        class="moving-wave-back"
+        d="M0 105 C170 25 310 165 500 90 C690 15 800 160 990 90 C1170 25 1300 145 1440 70 L1440 180 L0 180 Z"
+      ></path>
+
+      <path
+        class="moving-wave-front"
+        d="M0 135 C190 65 330 170 520 115 C700 55 820 155 1010 110 C1190 65 1310 155 1440 100 L1440 180 L0 180 Z"
+      ></path>
+
+      <path
+        class="moving-wave-line"
+        d="M0 135 C190 65 330 170 520 115 C700 55 820 155 1010 110 C1190 65 1310 155 1440 100"
+      ></path>
+    </svg>
+
+    <div class="moving-wave-next">
+      <span>08</span>
+      <b>MY FAV SONG</b>
+      <i>↓</i>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =========================================================
+     MY FAV SONG
+     ========================================================= -->
+
+<section class="fav-song-section" id="fav-song">
+
+  <div class="fav-song-stars" aria-hidden="true"></div>
+  <div class="fav-song-noise" aria-hidden="true"></div>
+
+  <div class="fav-song-inner">
+
+    <div class="fav-song-intro">
+      <p class="fav-song-kicker">
+        08 / MY FAV SONG
+        <span></span>
+      </p>
+
+      <h2>
+        MY FAV<br>
+        <strong>SONG.</strong>
+      </h2>
+
+      <div class="fav-song-motto">
+        <span>A SONG</span>
+        <span>A MEMORY</span>
+        <span>A BETTER ME</span>
+      </div>
+    </div>
+
+    <div class="fav-song-quote">
+      <em>“Music always finds a way to speak what I feel.”</em>
+      <span></span>
+      <strong>M. Raja Siyo</strong>
+    </div>
+
+    <div class="song-orbit" aria-label="Daftar lagu favorit">
+
+      <div class="song-orbit-ring ring-one"></div>
+      <div class="song-orbit-ring ring-two"></div>
+
+      <div class="song-orbit-cards" id="songOrbitCards">
+        <button class="song-orbit-card orbit-pos-0" data-index="1" type="button">
+          <img src="img/song-rahasia-hati.jpg" alt="Rahasia Hati" onerror="this.style.opacity='.15'">
+          <span>Rahasia Hati</span>
+        </button>
+
+        <button class="song-orbit-card orbit-pos-1" data-index="2" type="button">
+          <img src="img/song-beanie.jpg" alt="Beanie" onerror="this.style.opacity='.15'">
+          <span>beanie</span>
+        </button>
+
+        <button class="song-orbit-card orbit-pos-2" data-index="3" type="button">
+          <img src="img/song-chasing-yesterday.jpg" alt="Chasing Yesterday Morning" onerror="this.style.opacity='.15'">
+          <span>Chasing Yesterday Morning</span>
+        </button>
+
+        <button class="song-orbit-card orbit-pos-3" data-index="0" type="button">
+          <img src="img/song-about-you.jpg" alt="about you" onerror="this.style.opacity='.15'">
+          <span>about you</span>
+        </button>
+      </div>
+
+      <div class="song-center" id="songCenter">
+        <div class="song-center-art">
+          <img id="songCover" src="img/song-about-you.jpg" alt="Cover about you">
+          <div class="song-cover-glow"></div>
+        </div>
+
+        <div class="song-center-info">
+          <h3 id="songTitle">about you</h3>
+          <p id="songArtist">The 1975</p>
+        </div>
+      </div>
+
+      <button class="song-nav song-prev" id="songPrev" type="button" aria-label="Lagu sebelumnya">
+        <span>‹</span>
+        <small>PREV</small>
+      </button>
+
+      <button class="song-nav song-next" id="songNext" type="button" aria-label="Lagu berikutnya">
+        <span>›</span>
+        <small>NEXT</small>
+      </button>
+
+    </div>
+
+    <div class="song-player" id="songPlayer">
+      <div class="song-player-cover">
+        <img id="playerCover" src="img/song-about-you.jpg" alt="">
+      </div>
+
+      <div class="song-player-info">
+        <strong id="playerTitle">about you</strong>
+        <span id="playerArtist">The 1975</span>
+      </div>
+
+      <div class="song-progress-wrap">
+        <div class="song-time-row">
+          <span id="songCurrent">0:00</span>
+          <span id="songDuration">5:26</span>
+        </div>
+        <div class="song-progress" id="songProgress" role="slider" aria-label="Progress lagu" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" tabindex="0">
+          <i id="songProgressFill"></i>
+        </div>
+      </div>
+
+      <div class="song-controls">
+        <button type="button" id="songShuffle" aria-label="Shuffle">⌘</button>
+        <button type="button" id="songPlay" class="song-play" aria-label="Play">
+          <span id="songPlayIcon">▶</span>
+        </button>
+        <button type="button" id="songHeart" aria-label="Favorite">♡</button>
+      </div>
+    </div>
+
+    <div class="fav-song-bottom left">
+      <span>A SONG</span>
+      <span>A MEMORY</span>
+      <span>A BETTER ME</span>
+    </div>
+
+    <div class="fav-song-bottom right">
+      <span>PLAY</span>
+      <span>EXPLORE</span>
+      <span>FEEL</span>
+    </div>
+
+    <div class="fav-song-scroll">
+      <span>SCROLL FOR MORE</span>
+      <i>⌄</i>
+    </div>
+
+  </div>
+</section>
+
+
+</main>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
